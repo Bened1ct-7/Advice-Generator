@@ -12,6 +12,11 @@
   --main-color: #52A89C;
 }
 
+::selection {
+  background: var(--main-color);
+  color: #fff;
+}
+
 html {
   font-size: inherit;
 }

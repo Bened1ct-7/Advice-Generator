@@ -46,7 +46,7 @@ section {
 .preloader {
   height: 100vh;
   background: #fff;
-  animation: disapper 2.8s linear 1;
+  animation: disapper 3.1s linear 1;
 }
 
 @keyframes disapper {

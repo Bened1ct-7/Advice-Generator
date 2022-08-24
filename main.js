@@ -5,12 +5,14 @@ const copy = document.querySelector('.copy');
 const twitter = document.querySelector('.twitter');
 const section = document.querySelector('.section');
 const preloader = document.querySelector('.preloader')
-const copied = document.querySelector('.copied')
+const copied = document.querySelector('.copied');
+const adviceWrapper = document.querySelector('.advice-wrapper');
 
 window.onload = () => {
   setTimeout(() => {
     preloader.classList.add('active');
     section.classList.add('active');
+    adviceWrapper.classList.add('animate');
   }, 3000)
 }
 

@@ -45,6 +45,7 @@ section {
 
 .preloader {
   height: 100vh;
+  overflow: hidden;
   background: #fff;
   animation: disapper 3.1s linear 1;
 }
